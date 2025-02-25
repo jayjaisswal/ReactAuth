@@ -42,8 +42,8 @@ function SignupForm({ setLoggedIn }) {
     <div >
       {/* student-Instructor tab */}
       <div className="flex bg-richblack-800 p-2 my-4 gap-x-4 rounded-full max-w-max"> {/*max-w-max means jitna content h utna width*/ }
-        <button onClick={()=>setAccountType("student")} className={`${accountType==="student" ? "bg-richblack-900 text-richblack-5" : "bg-transparent text-richblack-200"} py-2 px-5 rounded-full transition-all duration-200`}>Student</button>
-        <button onClick={()=>setAccountType("instructor")}  className={`${accountType==="instructor" ? "bg-richblack-900 text-richblack-5" : "bg-transparent text-richblack-200"} py-2 px-5 rounded-full transition-all duration-200`}>Instructor</button> 
+        <button onClick={()=>setAccountType("student")} className={`${accountType==="student" ? "bg-richblack-900 text-richblack-5" : "bg-transparent text-richblack-200"} cursor-pointer py-2 px-5 rounded-full transition-all duration-200`}>Student</button>
+        <button onClick={()=>setAccountType("instructor")} className={`${accountType==="instructor" ? "bg-richblack-900 text-richblack-5" : "bg-transparent text-richblack-200"} cursor-pointer py-2 px-5 rounded-full transition-all duration-200`}>Instructor</button> 
       </div>
 
       <form onSubmit={submitHandler}>
