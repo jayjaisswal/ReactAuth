@@ -8,7 +8,8 @@ A simple authentication system built with React and React Router, deployed on Ne
 - 🔗 GitHub Pages: [ReactAuth on GitHub Pages](https://jayjaisswal.github.io/ReactAuth/)
 
 ## 📷 Preview
-![React Auth Preview](https://via.placeholder.com/1200x600?text=React+Auth+Application)
+![React Auth Login](./images/login.png)
+![React Auth Signup](./images/signup.png)
 
 ## 📌 Features
 - 🔑 User authentication (Login & Signup)
@@ -26,14 +27,14 @@ A simple authentication system built with React and React Router, deployed on Ne
 ## 📂 Installation & Setup
 
 ### **1️⃣ Clone the Repository**
-```sh
+
 git clone https://github.com/jayjaisswal/ReactAuth.git
 cd ReactAuth
-2️⃣ Install Dependencies
+### 2️⃣ Install Dependencies
 npm install
-3️⃣ Run the Project Locally
+### 3️⃣ Run the Project Locally
 npm start
-4️⃣ Build for Production
+### 4️⃣ Build the Project for Production
 
 npm run build
 🚀 Deployment
